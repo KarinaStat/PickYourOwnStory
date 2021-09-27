@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/gradient_back"
+        android:orientation="vertical"
+        android:paddingTop="32dp"
+        android:paddingBottom="60dp">
+
+        <TextView
+            android:id="@+id/three_choices_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:fontFamily="@font/almendra_display"
+            android:text="ngsjomwjlierlkgnskgnoeirgaoflkmalmflknspinganoiwngraoinhileakrfjglkjsglksjgilkjhslkjfholksjhlksnfhlksnhlksdnhlkhnslkhjfosrgpo"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/first_choice_card_view"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:id="@+id/first_choice_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_background" />
+
+            <TextView
+                android:id="@+id/first_choice_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_margin="8dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:text="there goes some text here meow"
+                android:textColor="#999999"
+                android:textSize="24sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/second_choice_card_view"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:id="@+id/second_choice_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_background" />
+
+            <TextView
+                android:id="@+id/second_choice_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_margin="8dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:text="there goes some text here meow"
+                android:textColor="#999999"
+                android:textSize="24sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/third_choice_card_view"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:id="@+id/third_choice_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_background" />
+
+            <TextView
+                android:id="@+id/third_choice_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_margin="8dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:text="there goes some text here meow"
+                android:textColor="#999999"
+                android:textSize="24sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

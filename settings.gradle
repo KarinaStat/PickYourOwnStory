@@ -1,0 +1,2 @@
+rootProject.name = "Pick Your Own Story"
+include ':app'
